@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
           
           <div className="relative opacity-0 animate-fade-in animate-delay-200">
             {/* Stats badges positioned in background */}
-            <div className="absolute -top-12 -right-12 -z-10">
+            <div className="absolute -top-12 -right-12 -z-50">
               <div className="bg-white rounded-xl shadow-lg p-4 rotate-6 animate-bounce" 
                    style={{animationDuration: "3s", animationDelay: "0.5s", animationIterationCount: "infinite"}}>
                 <div className="flex items-center gap-3">
@@ -61,7 +61,7 @@ const Hero: React.FC = () => {
               </div>
             </div>
 
-            <div className="absolute -bottom-8 -left-12 -z-10">
+            <div className="absolute -bottom-8 -left-12 -z-50">
               <div className="bg-white rounded-xl shadow-lg p-4 -rotate-3 animate-bounce"
                    style={{animationDuration: "4s", animationDelay: "1s", animationIterationCount: "infinite"}}>
                 <div className="flex items-center gap-3">
@@ -76,7 +76,7 @@ const Hero: React.FC = () => {
               </div>
             </div>
 
-            <div className="relative z-50 bg-white rounded-2xl shadow-xl overflow-hidden p-4">
+            <div className="relative z-10 bg-white rounded-2xl shadow-xl overflow-hidden p-4">
               {/* This would be a mockup of the app */}
               <div className="aspect-video bg-gray-200 rounded-xl"></div>
             </div>
