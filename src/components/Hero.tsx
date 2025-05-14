@@ -61,7 +61,7 @@ const Hero: React.FC = () => {
               </div>
             </div>
 
-            <div className="absolute -bottom-8 -left-12 -z-50">
+            <div className="absolute -bottom-8 -left-12 -z-10">
               <div className="bg-white rounded-xl shadow-lg p-4 -rotate-3 animate-bounce"
                    style={{animationDuration: "4s", animationDelay: "1s", animationIterationCount: "infinite"}}>
                 <div className="flex items-center gap-3">
