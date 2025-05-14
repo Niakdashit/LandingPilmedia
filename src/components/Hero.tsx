@@ -76,7 +76,7 @@ const Hero: React.FC = () => {
               </div>
             </div>
 
-            <div className="relative z-10 bg-white rounded-2xl shadow-xl overflow-hidden p-4">
+            <div className="relative z-20 bg-white rounded-2xl shadow-xl overflow-hidden p-4">
               {/* This would be a mockup of the app */}
               <div className="aspect-video bg-gray-200 rounded-xl"></div>
             </div>
