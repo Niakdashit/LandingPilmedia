@@ -76,13 +76,14 @@ const Hero: React.FC = () => {
               </div>
             </div>
 
-            <div className="relative z-50 bg-white rounded-2xl shadow-xl overflow-hidden p-4">
+            <div className="relative z-0 bg-white rounded-2xl shadow-xl overflow-hidden p-4">
               {/* This would be a mockup of the app */}
               <div className="aspect-video bg-gray-200 rounded-xl"></div>
             </div>
 
             {/* Campaign status badge */}
             <div className="absolute top-1/3 -right-4 bg-white rounded-lg shadow-lg p-2 rotate-3"
+              <div className="relative z-50 
                  style={{animationName: "pulse", animationDuration: "2s", animationIterationCount: "infinite"}}>
               <div className="px-4 py-2 bg-primary/10 rounded-md">
                 <p className="text-sm font-medium text-primary">Campagne active</p>
