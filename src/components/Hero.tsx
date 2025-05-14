@@ -65,7 +65,7 @@ const Hero: React.FC = () => {
               </div>
             </div>
 
-            <div className="absolute bottom-0 left-0 z-[50]">
+            <div className="absolute bottom-50 left-0 z-[50]">
               <div
                 className="bg-white rounded-xl shadow-lg p-4 -rotate-3 animate-bounce"
                 style={{
