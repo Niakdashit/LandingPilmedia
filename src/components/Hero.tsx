@@ -45,36 +45,40 @@ const Hero: React.FC = () => {
           </div>
           
           <div className="relative opacity-0 animate-fade-in animate-delay-200">
-            <div className="relative z-10 bg-white rounded-2xl shadow-xl overflow-hidden p-4">
-              {/* This would be a mockup of the app */}
-              <div className="aspect-video bg-gray-200 rounded-xl"></div>
-            </div>
-            
-            {/* Stats badges */}
-            <div className="absolute -top-6 -right-6 bg-white rounded-xl shadow-lg p-4 rotate-6 animate-bounce" 
-                 style={{animationDuration: "3s", animationDelay: "0.5s", animationIterationCount: "infinite"}}>
-              <div className="flex items-center gap-3">
-                <div className="bg-primary h-12 w-12 rounded-lg flex items-center justify-center text-white font-bold text-xl">
-                  +
-                </div>
-                <div>
-                  <p className="text-sm text-gray-500">Engagement</p>
-                  <p className="text-lg font-bold text-gray-800">+127%</p>
+            {/* Stats badges positioned in background */}
+            <div className="absolute -top-12 -right-12 -z-10">
+              <div className="bg-white rounded-xl shadow-lg p-4 rotate-6 animate-bounce" 
+                   style={{animationDuration: "3s", animationDelay: "0.5s", animationIterationCount: "infinite"}}>
+                <div className="flex items-center gap-3">
+                  <div className="bg-primary h-12 w-12 rounded-lg flex items-center justify-center text-white font-bold text-xl">
+                    +
+                  </div>
+                  <div>
+                    <p className="text-sm text-gray-500">Engagement</p>
+                    <p className="text-lg font-bold text-gray-800">+127%</p>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <div className="absolute -bottom-4 -left-6 bg-white rounded-xl shadow-lg p-4 -rotate-3 animate-bounce"
-                 style={{animationDuration: "4s", animationDelay: "1s", animationIterationCount: "infinite"}}>
-              <div className="flex items-center gap-3">
-                <div className="bg-secondary h-12 w-12 rounded-lg flex items-center justify-center text-white font-bold text-xl">
-                  ↗
-                </div>
-                <div>
-                  <p className="text-sm text-gray-500">Conversion</p>
-                  <p className="text-lg font-bold text-gray-800">+48%</p>
+            <div className="absolute -bottom-8 -left-12 -z-10">
+              <div className="bg-white rounded-xl shadow-lg p-4 -rotate-3 animate-bounce"
+                   style={{animationDuration: "4s", animationDelay: "1s", animationIterationCount: "infinite"}}>
+                <div className="flex items-center gap-3">
+                  <div className="bg-secondary h-12 w-12 rounded-lg flex items-center justify-center text-white font-bold text-xl">
+                    ↗
+                  </div>
+                  <div>
+                    <p className="text-sm text-gray-500">Conversion</p>
+                    <p className="text-lg font-bold text-gray-800">+48%</p>
+                  </div>
                 </div>
               </div>
+            </div>
+
+            <div className="relative z-10 bg-white rounded-2xl shadow-xl overflow-hidden p-4">
+              {/* This would be a mockup of the app */}
+              <div className="aspect-video bg-gray-200 rounded-xl"></div>
             </div>
 
             {/* Campaign status badge */}
