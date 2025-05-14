@@ -95,9 +95,7 @@ const Hero: React.FC = () => {
               />
             </div>
 
-            {/* Décors */}
-            <div className="absolute top-1/4 right-0 translate-x-1/4 -translate-y-1/4 w-40 h-40 bg-secondary/30 rounded-full blur-3xl"></div>
-            <div className="absolute bottom-1/4 left-0 -translate-x-1/4 translate-y-1/4 w-60 h-60 bg-primary/20 rounded-full blur-3xl"></div>
+        
           </div>
         </div>
       </div>
