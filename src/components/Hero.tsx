@@ -91,7 +91,7 @@ const Hero: React.FC = () => {
               <img
                 src="/mockups/formulaire.png"
                 alt="Mockup formulaire"
-                className="aspect-video w-full h-auto object-cover"
+                className="w-full h-auto object-cover"
               />
             </div>
 
