@@ -91,7 +91,7 @@ const Hero: React.FC = () => {
               <img
                 src="/mockups/formulaire.png"
                 alt="Mockup formulaire"
-                className="w-[80%] h-auto object-contain rounded-xl mx-auto"
+                className="w-[65%] h-auto object-contain rounded-xl mx-auto"
               />
             </div>
 
