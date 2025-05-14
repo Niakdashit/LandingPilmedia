@@ -95,20 +95,6 @@ const Hero: React.FC = () => {
               />
             </div>
 
-            {/* Badge "Campagne active" */}
-            <div
-              className="absolute top-1/3 -right-4 bg-white rounded-lg shadow-lg p-2 rotate-3"
-              style={{
-                animationName: "pulse",
-                animationDuration: "2s",
-                animationIterationCount: "infinite",
-              }}
-            >
-              <div className="px-4 py-2 bg-primary/10 rounded-md">
-                <p className="text-sm font-medium text-primary">Campagne active</p>
-              </div>
-            </div>
-
             {/* Décors */}
             <div className="absolute top-1/4 right-0 translate-x-1/4 -translate-y-1/4 w-40 h-40 bg-secondary/30 rounded-full blur-3xl"></div>
             <div className="absolute bottom-1/4 left-0 -translate-x-1/4 translate-y-1/4 w-60 h-60 bg-primary/20 rounded-full blur-3xl"></div>
