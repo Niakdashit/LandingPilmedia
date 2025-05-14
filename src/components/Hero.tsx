@@ -87,7 +87,7 @@ const Hero: React.FC = () => {
             </div>
 
             {/* ✅ Mockup principal avec l'image réelle */}
-            <div className="relative z-10 rounded-2xl shadow-xl overflow-hidden">
+            <div className="relative z-10">
               <img
                 src="/mockups/formulaire.png"
                 alt="Mockup formulaire"
@@ -95,7 +95,6 @@ const Hero: React.FC = () => {
               />
             </div>
 
-        
           </div>
         </div>
       </div>
