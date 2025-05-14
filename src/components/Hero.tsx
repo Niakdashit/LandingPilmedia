@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
@@ -51,35 +50,38 @@ const Hero: React.FC = () => {
               <div className="aspect-video bg-gray-200 rounded-xl"></div>
             </div>
             
-            {/* Engagement stats badge */}
-            <div className="absolute -top-6 -right-6 bg-white rounded-lg shadow-lg p-2 rotate-6 animate-bounce" 
+            {/* Stats badges */}
+            <div className="absolute -top-6 -right-6 bg-white rounded-xl shadow-lg p-4 rotate-6 animate-bounce" 
                  style={{animationDuration: "3s", animationDelay: "0.5s", animationIterationCount: "infinite"}}>
-              <div className="flex items-center space-x-2">
-                <div className="bg-primary h-10 w-10 rounded-lg flex items-center justify-center text-white font-bold">B</div>
+              <div className="flex items-center gap-3">
+                <div className="bg-primary h-12 w-12 rounded-lg flex items-center justify-center text-white font-bold text-xl">
+                  +
+                </div>
                 <div>
-                  <p className="text-xs text-gray-500">Engagement</p>
-                  <p className="text-sm font-bold text-gray-800">+127%</p>
+                  <p className="text-sm text-gray-500">Engagement</p>
+                  <p className="text-lg font-bold text-gray-800">+127%</p>
                 </div>
               </div>
             </div>
 
-            {/* Conversion stats badge */}
-            <div className="absolute -bottom-4 -left-6 bg-white rounded-lg shadow-lg p-2 -rotate-3 animate-bounce"
+            <div className="absolute -bottom-4 -left-6 bg-white rounded-xl shadow-lg p-4 -rotate-3 animate-bounce"
                  style={{animationDuration: "4s", animationDelay: "1s", animationIterationCount: "infinite"}}>
-              <div className="flex items-center space-x-2">
-                <div className="bg-secondary h-10 w-10 rounded-lg flex items-center justify-center text-white font-bold">A</div>
+              <div className="flex items-center gap-3">
+                <div className="bg-secondary h-12 w-12 rounded-lg flex items-center justify-center text-white font-bold text-xl">
+                  ↗
+                </div>
                 <div>
-                  <p className="text-xs text-gray-500">Conversion</p>
-                  <p className="text-sm font-bold text-gray-800">+48%</p>
+                  <p className="text-sm text-gray-500">Conversion</p>
+                  <p className="text-lg font-bold text-gray-800">+48%</p>
                 </div>
               </div>
             </div>
 
             {/* Campaign status badge */}
-            <div className="absolute top-1/3 -right-4 bg-white rounded-lg shadow-lg p-1 rotate-3"
+            <div className="absolute top-1/3 -right-4 bg-white rounded-lg shadow-lg p-2 rotate-3"
                  style={{animationName: "pulse", animationDuration: "2s", animationIterationCount: "infinite"}}>
-              <div className="px-3 py-1 bg-primary/10 rounded-md">
-                <p className="text-xs font-medium text-primary">En cours</p>
+              <div className="px-4 py-2 bg-primary/10 rounded-md">
+                <p className="text-sm font-medium text-primary">Campagne active</p>
               </div>
             </div>
             
